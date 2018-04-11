@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD997013206A2B65000EA186 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD997012206A2B65000EA186 /* TimerViewController.swift */; };
+		BD997013206A2B65000EA186 /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD997012206A2B65000EA186 /* TimerVC.swift */; };
 		E4A81E97205831D20072DB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A81E96205831D20072DB58 /* AppDelegate.swift */; };
-		E4A81E99205831D20072DB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A81E98205831D20072DB58 /* ViewController.swift */; };
+		E4A81E99205831D20072DB58 /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A81E98205831D20072DB58 /* MainScreenVC.swift */; };
 		E4A81E9C205831D20072DB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A81E9A205831D20072DB58 /* Main.storyboard */; };
 		E4A81E9E205831D20072DB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A81E9D205831D20072DB58 /* Assets.xcassets */; };
 		E4A81EA1205831D20072DB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A81E9F205831D20072DB58 /* LaunchScreen.storyboard */; };
 		E4A81EAC205831D20072DB58 /* PhysicianTimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A81EAB205831D20072DB58 /* PhysicianTimeTrackerTests.swift */; };
+		FAC2DBC3207D1EF7009CC177 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2DBC2207D1EF7009CC177 /* LoginVC.swift */; };
+		FAC2DBC7207D2B1B009CC177 /* CustomExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2DBC6207D2B1B009CC177 /* CustomExtention.swift */; };
+		FAC2DBC9207D788A009CC177 /* PatientsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2DBC8207D788A009CC177 /* PatientsTableCell.swift */; };
+		FAC2DBEF207D8824009CC177 /* Log.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBE6207D8823009CC177 /* Log.png */; };
+		FAC2DBF0207D8824009CC177 /* Patients.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBE7207D8823009CC177 /* Patients.png */; };
+		FAC2DBF1207D8824009CC177 /* Patients@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBE8207D8823009CC177 /* Patients@2x.png */; };
+		FAC2DBF2207D8824009CC177 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBE9207D8824009CC177 /* Calendar.png */; };
+		FAC2DBF3207D8824009CC177 /* Log@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBEA207D8824009CC177 /* Log@3x.png */; };
+		FAC2DBF4207D8824009CC177 /* Calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBEB207D8824009CC177 /* Calendar@2x.png */; };
+		FAC2DBF5207D8824009CC177 /* Log@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBEC207D8824009CC177 /* Log@2x.png */; };
+		FAC2DBF6207D8824009CC177 /* Patients@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBED207D8824009CC177 /* Patients@3x.png */; };
+		FAC2DBF7207D8824009CC177 /* Calendar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBEE207D8824009CC177 /* Calendar@3x.png */; };
+		FAC2DC01207D8B8A009CC177 /* Add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBFE207D8B89009CC177 /* Add@2x.png */; };
+		FAC2DC02207D8B8A009CC177 /* Add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DBFF207D8B89009CC177 /* Add@3x.png */; };
+		FAC2DC03207D8B8A009CC177 /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DC00207D8B89009CC177 /* Add.png */; };
+		FAC2DC07207DA1B3009CC177 /* InitTimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2DC06207DA1B3009CC177 /* InitTimerVC.swift */; };
+		FAC2DC09207DD3DB009CC177 /* TimerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2DC08207DD3DB009CC177 /* TimerTableCell.swift */; };
+		FAC2DC0B207DE898009CC177 /* LogTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2DC0A207DE898009CC177 /* LogTableCell.swift */; };
+		FAC2DC0D207DF14E009CC177 /* CalendarSample.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC2DC0C207DF14E009CC177 /* CalendarSample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD997012206A2B65000EA186 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		BD997012206A2B65000EA186 /* TimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
 		E4A81E93205831D20072DB58 /* PhysicianTimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicianTimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A81E96205831D20072DB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4A81E98205831D20072DB58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4A81E98205831D20072DB58 /* MainScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		E4A81E9B205831D20072DB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4A81E9D205831D20072DB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4A81EA0205831D20072DB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +57,25 @@
 		E4A81EA7205831D20072DB58 /* PhysicianTimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicianTimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A81EAB205831D20072DB58 /* PhysicianTimeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianTimeTrackerTests.swift; sourceTree = "<group>"; };
 		E4A81EAD205831D20072DB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC2DBC2207D1EF7009CC177 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FAC2DBC6207D2B1B009CC177 /* CustomExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExtention.swift; sourceTree = "<group>"; };
+		FAC2DBC8207D788A009CC177 /* PatientsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsTableCell.swift; sourceTree = "<group>"; };
+		FAC2DBE6207D8823009CC177 /* Log.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Log.png; sourceTree = "<group>"; };
+		FAC2DBE7207D8823009CC177 /* Patients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Patients.png; sourceTree = "<group>"; };
+		FAC2DBE8207D8823009CC177 /* Patients@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Patients@2x.png"; sourceTree = "<group>"; };
+		FAC2DBE9207D8824009CC177 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
+		FAC2DBEA207D8824009CC177 /* Log@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Log@3x.png"; sourceTree = "<group>"; };
+		FAC2DBEB207D8824009CC177 /* Calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar@2x.png"; sourceTree = "<group>"; };
+		FAC2DBEC207D8824009CC177 /* Log@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Log@2x.png"; sourceTree = "<group>"; };
+		FAC2DBED207D8824009CC177 /* Patients@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Patients@3x.png"; sourceTree = "<group>"; };
+		FAC2DBEE207D8824009CC177 /* Calendar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar@3x.png"; sourceTree = "<group>"; };
+		FAC2DBFE207D8B89009CC177 /* Add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add@2x.png"; sourceTree = "<group>"; };
+		FAC2DBFF207D8B89009CC177 /* Add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add@3x.png"; sourceTree = "<group>"; };
+		FAC2DC00207D8B89009CC177 /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		FAC2DC06207DA1B3009CC177 /* InitTimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitTimerVC.swift; sourceTree = "<group>"; };
+		FAC2DC08207DD3DB009CC177 /* TimerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTableCell.swift; sourceTree = "<group>"; };
+		FAC2DC0A207DE898009CC177 /* LogTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableCell.swift; sourceTree = "<group>"; };
+		FAC2DC0C207DF14E009CC177 /* CalendarSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarSample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				E4A81E96205831D20072DB58 /* AppDelegate.swift */,
-				E4A81E98205831D20072DB58 /* ViewController.swift */,
-				E4A81E9A205831D20072DB58 /* Main.storyboard */,
-				BD997012206A2B65000EA186 /* TimerViewController.swift */,
+				FAC2DBD3207D8369009CC177 /* Images */,
+				FAC2DBCA207D7896009CC177 /* CustomClass */,
+				FAC2DBC5207D1F3C009CC177 /* Storyboard */,
+				FAC2DBC4207D1F11009CC177 /* ViewController */,
 				E4A81E9D205831D20072DB58 /* Assets.xcassets */,
-				E4A81E9F205831D20072DB58 /* LaunchScreen.storyboard */,
 				E4A81EA2205831D20072DB58 /* Info.plist */,
 			);
 			path = PhysicianTimeTracker;
@@ -97,6 +135,57 @@
 				E4A81EAD205831D20072DB58 /* Info.plist */,
 			);
 			path = PhysicianTimeTrackerTests;
+			sourceTree = "<group>";
+		};
+		FAC2DBC4207D1F11009CC177 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2DBC2207D1EF7009CC177 /* LoginVC.swift */,
+				E4A81E98205831D20072DB58 /* MainScreenVC.swift */,
+				FAC2DC06207DA1B3009CC177 /* InitTimerVC.swift */,
+				BD997012206A2B65000EA186 /* TimerVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FAC2DBC5207D1F3C009CC177 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E4A81E9F205831D20072DB58 /* LaunchScreen.storyboard */,
+				E4A81E9A205831D20072DB58 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FAC2DBCA207D7896009CC177 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2DBC6207D2B1B009CC177 /* CustomExtention.swift */,
+				FAC2DBC8207D788A009CC177 /* PatientsTableCell.swift */,
+				FAC2DC08207DD3DB009CC177 /* TimerTableCell.swift */,
+				FAC2DC0A207DE898009CC177 /* LogTableCell.swift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		FAC2DBD3207D8369009CC177 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2DC0C207DF14E009CC177 /* CalendarSample.png */,
+				FAC2DBE9207D8824009CC177 /* Calendar.png */,
+				FAC2DBEB207D8824009CC177 /* Calendar@2x.png */,
+				FAC2DBEE207D8824009CC177 /* Calendar@3x.png */,
+				FAC2DBE6207D8823009CC177 /* Log.png */,
+				FAC2DBEC207D8824009CC177 /* Log@2x.png */,
+				FAC2DBEA207D8824009CC177 /* Log@3x.png */,
+				FAC2DBE7207D8823009CC177 /* Patients.png */,
+				FAC2DBE8207D8823009CC177 /* Patients@2x.png */,
+				FAC2DBED207D8824009CC177 /* Patients@3x.png */,
+				FAC2DC00207D8B89009CC177 /* Add.png */,
+				FAC2DBFE207D8B89009CC177 /* Add@2x.png */,
+				FAC2DBFF207D8B89009CC177 /* Add@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +271,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC2DBEF207D8824009CC177 /* Log.png in Resources */,
+				FAC2DC0D207DF14E009CC177 /* CalendarSample.png in Resources */,
+				FAC2DBF5207D8824009CC177 /* Log@2x.png in Resources */,
+				FAC2DBF0207D8824009CC177 /* Patients.png in Resources */,
+				FAC2DC02207D8B8A009CC177 /* Add@3x.png in Resources */,
+				FAC2DBF6207D8824009CC177 /* Patients@3x.png in Resources */,
+				FAC2DBF3207D8824009CC177 /* Log@3x.png in Resources */,
+				FAC2DC03207D8B8A009CC177 /* Add.png in Resources */,
 				E4A81EA1205831D20072DB58 /* LaunchScreen.storyboard in Resources */,
+				FAC2DBF4207D8824009CC177 /* Calendar@2x.png in Resources */,
+				FAC2DBF7207D8824009CC177 /* Calendar@3x.png in Resources */,
 				E4A81E9E205831D20072DB58 /* Assets.xcassets in Resources */,
+				FAC2DBF1207D8824009CC177 /* Patients@2x.png in Resources */,
+				FAC2DC01207D8B8A009CC177 /* Add@2x.png in Resources */,
 				E4A81E9C205831D20072DB58 /* Main.storyboard in Resources */,
+				FAC2DBF2207D8824009CC177 /* Calendar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A81E99205831D20072DB58 /* ViewController.swift in Sources */,
-				BD997013206A2B65000EA186 /* TimerViewController.swift in Sources */,
+				FAC2DC09207DD3DB009CC177 /* TimerTableCell.swift in Sources */,
+				E4A81E99205831D20072DB58 /* MainScreenVC.swift in Sources */,
+				FAC2DC0B207DE898009CC177 /* LogTableCell.swift in Sources */,
+				FAC2DBC7207D2B1B009CC177 /* CustomExtention.swift in Sources */,
+				FAC2DC07207DA1B3009CC177 /* InitTimerVC.swift in Sources */,
+				FAC2DBC9207D788A009CC177 /* PatientsTableCell.swift in Sources */,
+				BD997013206A2B65000EA186 /* TimerVC.swift in Sources */,
+				FAC2DBC3207D1EF7009CC177 /* LoginVC.swift in Sources */,
 				E4A81E97205831D20072DB58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5838NHR6G;
 				INFOPLIST_FILE = PhysicianTimeTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -373,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5838NHR6G;
 				INFOPLIST_FILE = PhysicianTimeTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
